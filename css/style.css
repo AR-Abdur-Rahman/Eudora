@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/Eudora-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+.navigaton{
+    
+padding: 15px;
+    
+background: #15100b87;
+}
+.navigaton ul{
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+list-style: none;
+}
+.navigaton ul li{
+    text-align: center;
+}
+.navigaton ul li a{
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+color: white;
+
+font-weight: 400;
+}
+.navigaton ul li a img{
+
+width: 70%;
+}
+.heading{
+
+min-height: 90vh;
+
+align-items: center;
+}
+header h1{
+    
+text-align: center;
+    
+color: #fff;
+
+font-style: italic;
+}
+header h1 span{
+
+color: #e59205;
+}
+header p{
+
+text-align: center;
+
+color: #fff;
+
+width: 70%;
+
+margin: 20px auto;
+}
+header .btn{
+
+background: transparent;
+
+border: 1px solid #fff;
+
+color: #fff;
+
+padding: 5px 10px;
+}
+header .btn:hover{
+    border-radius: 3px;
+
+    background-color: #e59205;
+
+    transition: .5s all ease-in-out;
+}
+.food_menu{
+
+padding: 70px 0;
+}
+.food_menu_items h2{
+
+text-align: center;
+
+color: #6e7498;
+
+font-style: italic;
+
+font-weight: 800;
+
+margin-bottom: 20px;
+
+position: relative;
+}
+.food_menu_items h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(-50%);
+    background-color: #e59205;
+    width: 200px;
+    height: 2px;
+}
+.food_menu_items h2::after{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%);
+    background-color: #e59205;
+    width: 200px;
+    height: 2px;
+}
+.food_menu_items p{
+
+text-align: center;
+
+margin-bottom: 20px;
+
+line-height: 33px;
+
+font-size: 20px;
+}
+.food_menu_items .buttons{
+
+display: flex;
+
+justify-content: center;
+
+margin-top: 30px;
+}
+.buttons button{
+
+    background: transparent;
+
+border: 1px solid #6e7498;
+
+margin: 0px 20px;
+
+padding: 5px 10px;
+
+text-transform: uppercase;
+
+font-weight: 500;
+}
+.food_menu_items .buttons button:hover{
+    background-color: #e59205;
+    color: #fff;
+    transition: .5s all ease-in-out;
+}
+.food_menu_items{
+    margin-bottom: 70px;
+}
+.food_items{
+    
+margin-top: 50px;
+    
+text-align: center;
+}
+.food_items img{
+
+box-shadow: 0px 0px 6px 5px #8c8c8c17;
+
+margin-bottom: 20px;
+
+border-radius: 5px;
+}
+.food_items.active{
+    
+margin-top: 0;
+}
+.food_items.active h2{
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #e59205;
+    font-style: italic;
+}
+.food_items.active h5{
+
+margin-bottom: 20px;
+
+color: #3A3A3D;
+}
+.food_items.active p{
+
+margin-bottom: 20px;
+
+color: #a4a8bc;
+}
+.food_items .buttons.btn:hover{
+    background-color: #e59205;
+    color: #fff;
+    transition: .5s all ease-in-out;
+}
+.platter{
+    
+}
+.platter .row{
+
+}
+.color_box{
+    background-color: #e59205;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+.color_box h1{
+    color: #fff;
+    font-style: italic;
+    padding-left: 15px;
+    font-size: 25px;
+    width: 50%;
+}
+.image_box{
+    background-image: url(../images/Eudora-template-salat.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.menu_items{
+    padding: 20px 0;
+    margin-top: 30px;
+}
+.nemu_card{
+
+text-align: center;
+}
+.nemu_card h1{
+
+color: #6e7498;
+
+font-size: 22px;
+
+font-weight: 800;
+}
+.nemu_card p{
+
+line-height: 28px;
+
+margin: 20px 20px;
+
+font-size: 14px;
+
+color: #a4a8bc;
+}
+.nemu_card button{
+    background: transparent;
+    border: 1px solid #d9dcee;
+    padding: 5px 10px;
+    color: #6e7498;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.nemu_card button:hover{
+    background-color: #e59205;
+    color: #fff;
+    border-radius: 3px;
+    transition: .5s all ease-in-out;
+}
+.icon{
+
+}
+.icon img{
+
+width: 70px;
+
+height: 70px;
+
+text-align: center;
+
+margin: auto;
+
+padding: 15px;
+}
+.section_bg{
+    padding: 70px 0;
+    background-image: url(../images/Eudora-.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.from_section{
+
+text-align: center;
+}
+.from_section h1{
+
+text-align: center;
+
+margin: 20px;
+
+color: #fff;
+
+font-weight: 600;
+}
+form{
+
+text-align: center;
+
+margin: 20px;
+}
+form input{
+
+background: transparent;
+
+outline: none;
+
+border: none;
+
+border: 1px solid #fff;
+
+width: 40%;
+}
+.from_section button{
+    background: transparent;
+    border: none;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 5px 10px;
+}
+.from_section button:hover{
+    background-color: #e59205;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+.footer_section{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_section p{
+    color: #a4a8bc;
+}
+.footer_section ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+}
+.footer_section li{
+    text-transform: uppercase;
+    color: #a4a8bc;
+    margin-left: 20px;
+}
