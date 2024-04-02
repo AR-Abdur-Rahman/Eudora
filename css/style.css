@@ -163,7 +163,7 @@ text-transform: uppercase;
 
 font-weight: 500;
 }
-.food_menu_items:hover{
+.food_menu_items .btn:hover{
     background-color: #e59205;
     color: #fff;
     transition: .5s all ease-in-out;
